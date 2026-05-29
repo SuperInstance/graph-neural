@@ -1,0 +1,13 @@
+[package]
+name = "graph-neural"
+version = "0.1.0"
+edition = "2021"
+description = "Graph neural network primitives using spectral methods"
+
+[[bin]]
+name = "graph-neural"
+path = "src/main.rs"
+
+[lib]
+name = "graph_neural"
+path = "src/lib.rs"
